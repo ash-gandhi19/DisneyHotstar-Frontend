@@ -13,7 +13,7 @@ import Search from "./Components/Search";
 import Login from "./Components/Login";
 import SignUp from "./Components/SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
-export const url = "https://disneyhotstart.herokuapp.com";
+export const url = "https://disneyhotstarbk.herokuapp.com";
 export const HotstarContext = React.createContext();
 function App() {
   let [searchName, setSearchName] = useState();
